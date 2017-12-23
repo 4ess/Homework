@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Food Form Example</title>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<form>
+  <div id="mamaliga-option" >
+    <input type="checkbox" onclick="optionClick();">
+    <img width="100" src="https://bucate-aromate.ro/wp-content/uploads/2015/01/Cum-se-face-mamaliga2.jpg" alt="mamaliga">
+    <span id="maliga">Maliga</span>
+    <input type="text" value="0" onmouseout="filterValue();" disabled>
+  </div>
+
+  <div id="hotdog-option">
+    <input type="checkbox" onclick="optionClick();">
+    <img width="100" src="https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/630x315/format/jpg/quality/85/http%3A%2F%2Fi.huffpost.com%2Fgen%2F3596402%2Fimages%2Fn-HOT-DOG-EATING-628x314.jpg" alt="hotdog">
+    <span id="hotdog">Hotdog</span>
+    <input type="text" value="0" onmouseout="filterValue();" disabled>
+  </div>
+
+  <div id="hamburger-option" onclick="optionClick();">
+    <input type="checkbox">
+    <img width="100" src="https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/pass/the-ultimate-hamburger.jpg" alt="hamburger">
+    <span id="hamburger">Hamburger</span>
+    <input type="text" value="0" onmouseout="filterValue();" disabled>
+  </div>
+</form>
+<div id="total_tot">
+<div></div>
+</div>
+
+  <script src="form.js"></script>
+</body>
+</html>
