@@ -1,0 +1,103 @@
+body{
+  background-color: #4b4ea4;
+  animation: c 20s linear infinite;
+}
+.hours{
+  color: #37d3ee;
+  font-size: 100px;
+  font-family: 'Monoton', cursive;
+  animation: a 10s linear infinite;
+}
+.minutes{
+  color: #37d3ee;
+  font-size: 100px;
+  font-family: 'Monoton', cursive;
+  animation: b 10s linear infinite;
+}
+.seconds{
+  color: #37d3ee;
+  font-size: 100px;
+  font-family: 'Monoton', cursive;
+  animation: a 10s linear infinite;
+}
+.dots{
+  color: #37d3ee;
+  font-size: 100px;
+  animation: a 10s linear infinite;
+}
+#d{
+animation: d 1s linear infinite;
+}
+@keyframes a {
+  from{
+    color: #37d3ee;
+
+  }
+  20%{
+    color: #00ffc2;
+
+  }
+  50%{
+    color: #75f014;
+
+  }
+  80%{
+    color: #00ffc2;
+
+  }
+  to{
+    color: #37d3ee;
+
+  }
+}
+@keyframes b {
+  from{
+    color: #37d3ee;
+
+  }
+  20%{
+    color: #9e28e7;
+
+  }
+  50%{
+    color: #ff75f9;
+
+  }
+  80%{
+    color:  #9e28e7;
+
+  }
+  to{
+    color: #37d3ee;
+
+  }
+}
+@keyframes c {
+  from{
+        background-color: #4b4ea4;
+  }
+  20%{
+        background-color: #9e28e7;
+  }
+  50%{
+        background-color:  #ff75f9;
+  }
+  80%{
+        background-color:  #9e28e7;
+  }
+  to{
+        background-color: #4b4ea4;
+  }
+}
+@keyframes d{
+  from{
+    padding-left: 0px;
+  }
+
+  50%{
+      padding-left: 50px;
+
+  to{
+      padding-left: 0px;
+  }
+}
