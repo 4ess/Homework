@@ -1,0 +1,50 @@
+body{
+background-color: pink;
+animation: b 1s linear infinite;
+}
+.text-display{
+  color: blue;
+  font-size: 300px;
+  padding-left: 20%;
+animation: a 10s linear infinite;
+}
+.aiapasat{
+  color:red;
+  font-size: 40px;
+  padding-left: 20% ;
+  animation: a 15s linear infinite;
+}
+.daskeya{
+font-size: 80px;
+padding-left: 20%;
+animation: a 20s linear infinite;
+}
+.keycode-display{
+  font-size: 100px;
+  padding-left: 40%;
+}
+@keyframes a {
+  from{
+    padding-left: 20%;
+    color: blue;
+  }
+  50%{
+    color: #27ed76;
+    padding-left: 1%;
+  }
+  to{
+    color: blue;
+    padding-left: 20%;
+  }
+}
+@keyframes b {
+  from{
+    background-color: pink;
+  }
+  50%{
+    background-color: #11e8f1;
+  }
+  to{
+    background-color: pink;
+  }
+}
