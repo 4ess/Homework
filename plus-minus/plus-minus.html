@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Plus Minus</title>
+
+</head>
+<body>
+
+  <button onclick="myplus();">+</button>
+  <input type="text" value="10">
+  <button onclick="minus();">-</button>
+  <div></div>
+
+<script>
+
+  //var plus = document.querySelector('input')
+  //var buttonPlus = document.body.firstElementChild;
+  var div = document.body.children[3];
+  var input = document.querySelector('input');
+function myplus(){
+if(input.value <= 19){
+ input.value++;
+}else{
+  div.innerHTML = "Achtung Ein";
+}
+}
+function minus(){
+  if(input.value >= -19){
+  input.value--;
+}else{
+  div.innerHTML = "Achtung Zwei";
+}
+}
+
+</script>
+
+</body>
+</html>
